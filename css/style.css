@@ -1,8 +1,39 @@
+
+/* credits to codefoxx on Youtube for the tutorial on how to split a background into two colours */
 body {
-	
+	height: 100vh;
+	background: linear-gradient(
+		to bottom,
+		white 0%,
+		white 23%,
+		#6d83d9ff 23%,
+		#6d83d9ff 100%
+	);
 }
 
 .margin {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logo {
+	position: absolute;
+   top: 20px;
+   right: 30px;
+}
+
+.cinnamonCan {
+	position: absolute;
+   top: 230px;
+   right: 400px;
+}
+
+/* found out about this on flaviocopes */
+.zoom {
+	zoom: 1.2;
+}
+
+h1 {
 	
 }
 
