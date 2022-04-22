@@ -1,19 +1,30 @@
 
-/* credits to codefoxx on Youtube for the tutorial on how to split a background into two colours */
+/* credits to codefoxx on Youtube for the tutorial on how to split a background into different colours */
 body {
 	height: 100vh;
 	background: linear-gradient(
-		to bottom,
-		white 0%,
-		white 23%,
-		#6d83d9ff 23%,
-		#6d83d9ff 100%
+		to right,
+		#5C0D00 0%,
+		#5C0D00 15%,
+		#700f00 15%,
+		#700f00 20%,
+		#941400 20%,
+		#941400 25%,
+		#181111 25%,
+		#181111 75%,
+		#941400 75%,
+		#941400 80%,
+		#700f00 80%,
+		#700f00 85%,
+		#5C0D00 85%,
+		#5C0D00 100%
 	);
 }
 
 .margin {
-	margin-left: 20px;
-	margin-right: 20px;
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
 }
 
 .logo {
@@ -28,12 +39,15 @@ body {
    right: 400px;
 }
 
-/* found out about this on flaviocopes */
+/* found out about this on flaviocopes so */
 .zoom {
 	zoom: 1.2;
 }
 
 h1 {
-	
+	color: RGB(255, 255, 255);
 }
 
+h3 {
+	color: RGB(255, 255, 255);
+}
