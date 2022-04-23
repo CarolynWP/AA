@@ -1,4 +1,3 @@
-
 /* credits to codefoxx on Youtube for the tutorial on how to split a background into different colours */
 body {
 	height: 100vh;
@@ -21,33 +20,55 @@ body {
 	);
 }
 
-.margin {
+.margin1 {
 	text-align: center;
-	margin-left: 500px;
-	margin-right: 500px;
+	margin-left: 310px;
+	margin-right: 310px;
 }
 
-.logo {
-	position: absolute;
-   top: 20px;
-   right: 30px;
+.margin2 {
+	text-align: center;
+	margin-left: 330px;
+	margin-right: 330px;
 }
-
-.cinnamonCan {
-	position: absolute;
-   top: 230px;
-   right: 400px;
-}
-
 /* found out about this on flaviocopes so */
 .zoom {
 	zoom: 1.2;
+	color: #FFF
 }
 
 h1 {
 	color: RGB(255, 255, 255);
 }
 
-h3 {
-	color: RGB(255, 255, 255);
+h4 {
+	color: RGB(185, 46, 46);
 }
+
+p {
+	color: HSL(156, 0%, 100%);
+}
+
+h5 {
+	color: HSL(156, 0%, 100%);
+}
+
+h3 {
+	color: HSL(156, 0%, 100%);
+}
+
+.light1 {
+	position: absolute;
+  bottom: -90px;
+  left: 20px;
+}
+
+.light2 {
+	position: absolute;
+  bottom: -90px;
+  right: 20px;
+	/* learned how to flip an image from css-tricks.com */
+	transform: scaleX(-1);
+}
+
+
